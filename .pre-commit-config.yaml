@@ -1,3 +1,4 @@
+# Syncs jupyter notebooks with python code, if any overlap
 repos:
 - repo: https://github.com/jupytext/jupytext
   rev: v1.19.5
@@ -27,3 +28,10 @@ repos:
     - id: ruff
       args: ["--fix", "--show-fixes"]
     - id: ruff-format
+
+# Spelling mistakes
+- repo: https://github.com/codespell-project/codespell
+  rev: v2.4.3
+  hooks:
+    - id: codespell
+      files: \.(py|ipynb|md|rst)$

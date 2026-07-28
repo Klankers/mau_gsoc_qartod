@@ -1,0 +1,1 @@
+Welcome to my working notebooks from the 2026 Google Summer of Code! For this project, I'm working with Filipe Fernandes (IOOS) and Callum Rollo (VOTO) to assess and improve the *IOOS QARTOD* toolbox for oceanic gliders.

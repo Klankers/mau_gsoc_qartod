@@ -1,5 +1,8 @@
-Welcome to my working notebooks from the 2026 Google Summer of Code! For this project, I'm working with Filipe Fernandes (IOOS) and Callum Rollo (VOTO) to assess and improve the *IOOS QARTOD* toolbox for oceanic gliders.
+# Aaron Mau's 2026 Google Summer of Code - "Filling the gaps for ocean glider data quality control"
 
+Welcome to my working notebooks from the 2026 Google Summer of Code! For this project, I'm working with Filipe Fernandes (IOOS) and Callum Rollo (VOTO) to assess and improve the *IOOS QARTOD* toolbox for oceanic gliders. You can see the [project proposal here](https://github.com/ioos/gsoc/issues/102).
+
+## Deadlines
 Deadlines for individual deliverables have been established as follows:
 
 | Stage | Stage specifications | Time required | Start-End |
@@ -11,3 +14,8 @@ Deadlines for individual deliverables have been established as follows:
 | 5 | Explore other tests and finalize documentation.| 3 weeks | Sept 21 - Nov 2 |
 
 Though there is plenty of wiggle room.
+
+## Contents
+
+* `deliverable_X.ipynb` - a running Jupyter notebook, documenting the findings of each set of QARTOD tests and strategies for making improvements. Little bits of learning are sprinkled therein for reference and future training.
+* `to_explore.md` - primarily a table of items that could be worth exploring following the conclusion of the 2026 GSoC.

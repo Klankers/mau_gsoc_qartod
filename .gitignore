@@ -2,3 +2,5 @@
 .coverage
 settings.json
 data.json
+dbdreader*
+dbdreader_2.py

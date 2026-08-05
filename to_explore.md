@@ -12,3 +12,4 @@ This serves as a list of things that I find during the GSoC period.
 | July 28 | Add location bound fuzziness | When doing this test, users should be able to specify how accurate their location data is within a few meters. Add that as a tolerance of the shape object, and flag points within said tolerance as SUSPECT |
 | August 4 | Check np.array() vs np.asarray() usage | Potential to save memory during tests by using np.asarray(), assuming the original does not need to be preserved. |
 | August 5 | Run through Jupyter notebooks | Confirm they still work. Fix/rework them if they don't. Get them on the docs. Add them to the github actions to regen periodically and confirm everything still works. |
+| August 5 | Explore interpolation flagging schemes | Add an interpolation function to the data and attempt to get as many tangents as possible. Then, flag points that are not within the interpolated window. |

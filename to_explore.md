@@ -13,3 +13,5 @@ This serves as a list of things that I find during the GSoC period.
 | August 4 | Check np.array() vs np.asarray() usage | Potential to save memory during tests by using np.asarray(), assuming the original does not need to be preserved. |
 | August 5 | Run through Jupyter notebooks | Confirm they still work. Fix/rework them if they don't. Get them on the docs. Add them to the github actions to regen periodically and confirm everything still works. |
 | August 5 | Explore interpolation flagging schemes | Add an interpolation function to the data and attempt to get as many tangents as possible. Then, flag points that are not within the interpolated window. |
+| August 10 | Consistency check | Look through the functions and homogenize the coding style with helper functions, like a `valid` masker for NaNs |
+| August 11 | Initial flag | Current routine is to flag all as PASS, then flag on top of that. Other orgs flag as UNKNOWN first, then fill things in. This way, any points that are missed can be found in the final step |

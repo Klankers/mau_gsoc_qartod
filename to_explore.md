@@ -15,3 +15,4 @@ This serves as a list of things that I find during the GSoC period.
 | August 5 | Explore interpolation flagging schemes | Add an interpolation function to the data and attempt to get as many tangents as possible. Then, flag points that are not within the interpolated window. |
 | August 10 | Consistency check | Look through the functions and homogenize the coding style with helper functions, like a `valid` masker for NaNs |
 | August 11 | Initial flag | Current routine is to flag all as PASS, then flag on top of that. Other orgs flag as UNKNOWN first, then fill things in. This way, any points that are missed can be found in the final step |
+| August 13 | Expand unit tests | `config_creator.py` is at 37% coverage and is dependent on the QARTOD API. If users are following these JSON as examples, it should be robustly tested. |

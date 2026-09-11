@@ -19,3 +19,4 @@ This serves as a list of things that I find during the GSoC period.
 | August 13 | Standard and long names | As per [Callum's comment](https://github.com/ioos/ioos_qc/pull/235#discussion_r3776105198), `standard_name` comes from the CF library. Worth looking up which ones are in QARTOD (commenting them out if they aren't there) |
 | August 18 | Function flowcharts | Potentially not worth doing, but GTSPP groups documentation as: Name, Description, History, Rules (potentially code), Flowchart. |
 | September 4 | Assess the docs | Discovered today that they needed to be rebuilt (2025 in footer). Nav pane seems... unstructured? Is the API complete? |
+| September 11 | Compare manuals | There are [several IOOS QC manuals](https://ioos.noaa.gov/project/qartod/) that are worth checking into and synthesizing outlined tests - the `pressure test` is not even considered in the TS manual |
